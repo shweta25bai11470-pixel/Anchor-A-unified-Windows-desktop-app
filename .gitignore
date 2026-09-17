@@ -1,0 +1,104 @@
+# =========================================================
+# Anchor — Student Life Dashboard
+# Git ignore rules
+# =========================================================
+
+# ---------- Maven build output ----------
+target/
+build/
+out/
+
+# ---------- jpackage output ----------
+dist/
+staging/
+test-runtime/
+
+# ---------- Auto-generated Maven files ----------
+dependency-reduced-pom.xml
+pom.properties
+pom.xml.versionsBackup
+release.properties
+
+# ---------- Auto-generated jpackage files ----------
+.jpackage.xml
+
+# ---------- Compiled bytecode and archives ----------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# ---------- Windows native binaries ----------
+*.exe
+*.msi
+*.dll
+*.bat
+*.cmd
+
+# ---------- Logs and JVM crash dumps ----------
+*.log
+hs_err_pid*.log
+replay_pid*.log
+java_pid*.hprof
+
+# ---------- User data (NEVER commit) ----------
+.anchor/
+
+# ---------- IDE / Editor files ----------
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+
+# NetBeans
+nbproject/
+nbactions.xml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+*#
+.#*
+
+# ---------- OS-specific junk ----------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+*.kate-swp
+
+# ---------- Temporary / misc ----------
+*.tmp
+*.bak
+*.orig
+*.rej
+*.old
+*.swp
